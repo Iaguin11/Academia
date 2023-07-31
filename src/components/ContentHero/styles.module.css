@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+
+.container{
+  width:auto;
+  height: 60vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 4%;
+}
+.title{
+  color: #FFF;
+  font-family: 'Bungee Outline';
+  font-size: 82px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 5rem;
+}
+.subTitle{
+  color: #FFF;
+  font-family: Bebas Neue;
+  font-size: 6.375rem;
+  font-style: normal;
+  font-weight: 400;
+  
+}
+.divSecundary{
+  display: flex;
+  flex-direction: column;
+  padding-left: 5rem;
+ 
+}
+.text{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 43rem;
+  padding-bottom: 1.75rem;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 11rem;
+  height: 3rem;
+  background-color: #222;
+  color: #fefefe;
+  border: none;
+  font-family: 'Bebas Neue';
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+  cursor:pointer ;
+  transition: 0.2s;
+}
+.btn:hover{
+  color:#A03333;
+  transform: scale(1.1);
+  transition: all 0.1s;
+}
+
+
+.img{
+  width: 11.6875rem;
+  height: 3.375rem;
+  flex-shrink: 0;
+  transition: .2s;
+}
+.img:hover {
+  left: .29rem;
+}
+.arrow{
+  position: relative;
+  right: 8%;
+  bottom: 20%;
+}
+.contentImgMan{
+  display: inline-block;
+  position: relative;
+  left: 60%;
+  bottom: 76%;
+}
+.imgMan{
+  position: absolute;
+  top: 34px;
+  
+}
+@media (max-width: 1280px){
+  .container{
+    flex-direction: row;
+    align-items: center;
+  }
+  .divSecundary{
+    padding-left: 0;
+    margin-left: auto;
+  }
+  .text{
+    width: auto;
+  }
+  .imgMan{
+    display: none;
+  }
+}
+@media (max-width: 425px){
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 10%; 
+  }
+
+  .title {
+    font-size: 5rem; 
+    line-height: 6rem;
+    text-align: center; 
+  }
+
+  .subTitle {
+    font-size: 3rem;
+    text-align: center; 
+  }
+
+  .divSecundary {
+    padding-left: 0;
+    margin-top: 2rem; /* Cria espaço entre o subtítulo e o bloco de texto */
+    text-align: center; /* Centraliza o texto */
+  }
+
+  .text {
+    width: auto; 
+    padding-bottom: 3rem; /* Reduz o espaçamento inferior */
+  }
+
+  .btn {
+    width: 100%; 
+    border-radius: 10px;
+  }
+
+  .img {
+    width: 10rem; /* Reduz o tamanho da imagem */
+    height: auto; /* Mantém a proporção original da imagem */
+    margin-top: 1rem; /* Cria espaço entre o bloco de texto e a imagem */
+  }
+
+  .imgMan {
+    display: none; /* Oculta a imagem do homem em dispositivos menores */
+  }
+
+  .contentImgMan {
+    display: none; /* Oculta o contêiner da imagem do homem em dispositivos menores */
+  }
+}

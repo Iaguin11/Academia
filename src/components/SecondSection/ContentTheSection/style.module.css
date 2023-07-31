@@ -1,0 +1,71 @@
+.container{
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.title{
+  color: #FFF;
+  font-family: Bungee Outline;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.span{
+  color: #FFF;
+  font-family: Bebas Neue;
+  font-size: 82px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+  padding-left: 1.69rem;
+}
+.divCard{
+  gap: 10px;
+  width: 20rem;
+  height: 20.625rem;
+  padding: 1.5rem;
+  transition: 0.5s;
+}
+.divCard:hover{
+  background-color: #1E1E1E;
+  transform: scale(1.1);
+  transition: all 0.1s;
+}
+@media (max-width: 425px) {
+  .container{
+    gap: 10px;
+    height: auto;
+  }
+  .content{
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  .subContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title{
+    margin-top: 40px;
+    font-size: 30px;
+    
+  }
+  .span{
+    font-size: 32px;
+
+  }
+ 
+ }

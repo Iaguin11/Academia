@@ -1,0 +1,94 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+.content{
+  margin:70px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.title{
+  color: #FFF;
+  font-family: 'Bebas Neue';
+  font-size: 82px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+.paragraph{
+  color: #FFF;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+.divInput{
+  display: flex;
+  gap: 30px;
+}
+.divInput input{
+  width: 14rem;
+  height: 2.625rem;
+  color: #FFF;
+  background-color: transparent;
+  stroke-width: 1px;
+  stroke: #FFF;
+  border:1px solid #FFF;
+  padding-left: 1.12rem;
+  font-family: 'Montserrat';
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+.CroppeBtn{
+  width: 15.625rem;
+  height: 2.625rem; 
+  background-color: #FF3939; 
+  color: #fff;
+  border: none; 
+  font-size: 16px; 
+  color: #FFF;
+  font-family: 'Montserrat';
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+.CroppeBtn:hover{
+  transform: scale(1.1);
+  transition: all 0.1s;
+}
+
+.img{
+  position:relative;
+  right: 190px;
+  bottom: 151px;
+}
+@media (max-width:425px){
+  .img{
+   display: none;
+  }
+  .content{
+    margin:70px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .title{
+    font-size: 40px;
+  }.paragraph{
+    color: #FFF;
+    font-size: 14px;
+    width: 300px;
+  }
+  .divInput{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}

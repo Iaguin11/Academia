@@ -1,0 +1,125 @@
+.contentImgs{
+  position: relative;
+}
+.imgOne{
+  position: absolute;
+  z-index: 1;
+}
+.imgTwo{
+  position:absolute;
+}
+.imgThree{
+  padding-left: 7%;
+}
+.png{
+  position:relative;
+  top: 11.5%;
+  right: 65%;
+  z-index: 1;
+}
+.container{
+  display: flex;
+}
+.subContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.subTitles h5{
+  color: #FFF;
+  font-family: 'Bungee Outline';
+  font-size: 3.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+.subTitles span {
+  color: #FFF;
+  font-family: 'Bebas Neue';
+  font-size: 5.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+.subTitles p{
+  width: 50rem;
+  color: #FFF;
+  font-family: 'Montserrat';
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+.description{
+  display: flex;
+  gap: 20px;
+}
+.description h5{
+  text-align: center;
+  color: #FFF;
+  font-family: 'Bebas Neue';
+  font-size: 3.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+.description p{
+  /* width: 11.625rem; */
+  color: #FFF;
+  font-family: 'Montserrat';
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+@media (max-width:425px){
+  .container{
+    height:auto;
+  }
+  .contentImgs{
+    display: none;
+  }
+  .png{
+    display: none;
+  }
+  .subContent{
+   margin: 10px 0px 30px 0px;
+  }
+  .subTitles{
+  margin-left: 30%;
+  }
+  .subTitles h5{
+    text-align: center;
+    font-size: 2rem;
+    line-height:100px; 
+  }
+  .subTitles span {
+   
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+  }
+  .subTitles p{
+    text-align: center;
+    width: 20rem;
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+  }
+  .description{
+    flex-direction: column;
+    margin-left: 30%;
+  }
+  .description p{
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    
+  }
+ 
+}

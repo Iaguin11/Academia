@@ -1,0 +1,208 @@
+.container{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.title{
+  color: #FFF;
+  font-family: 'Bebas Neue';
+  font-size: 5.12rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+.content{
+  display: flex;
+  gap: 41px;
+}
+.contentOne{
+  width: 24.9375rem;
+  height: 20.125rem;
+  flex-shrink: 0; 
+  line-height: 10px;
+}
+.contentOne:hover{
+  transform: scale(1.1);
+  transition: all 0.1s;
+}
+.text{
+  padding: 28px;
+  background: #000;
+  color: #FFF;
+  font-family: 'Bebas Neue';
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.h2{
+  padding: 28px;
+  background: #ff0202;
+  color: #FFF;
+  font-family: 'Bebas Neue';
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.textTop{
+  margin-top: -10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem; 
+  background: #ff0202;
+  color: #FFF;
+  font-family: 'Montserrat';
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.divFinaly{
+  height: 5.1rem;
+  background: #B4B4B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.paragraphOne{
+  padding-left: 1.5rem;
+  width: 10px;
+  color: #787878;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.paragraph{
+  padding-left: 1.5rem;
+  width: 200px;
+  color: #787878;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+.paragraph2{
+  padding-left: 1.5rem;
+  width: 200px;
+  color: #787878;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+.divFinalyEven{
+  height: 5rem;
+  background: #B4B4B4;
+}
+.btn{
+  margin-right: 20px;
+  width: 8.5rem;
+  height: 3.125rem;
+  flex-shrink: 0; 
+  border-radius: 3.125rem; 
+  border: 1px solid #787878;
+  background: rgba(217, 217, 217, 0.00);
+  color: #787878;
+  font-family: 'Montserrat';
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.btn:hover{
+  transform: scale(1.1);
+  transition: all 0.1s;
+  border: 2px solid black;
+  color: #222;
+}
+.btnRed{
+  margin-right: 20px;
+  width: 8.5rem;
+  height: 3.125rem;
+  flex-shrink: 0; 
+  border-radius: 3.125rem; 
+  border: 1px solid #FF0202;;
+  background: rgba(217, 217, 217, 0.00);
+  color: #FF0202;;
+  font-family: 'Montserrat';
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.span{
+  color: #FFF;
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+}
+@media (max-width:425px){
+  .container{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+  .title{
+    color: #FFF;
+    font-size: 2.12rem;
+    margin-top: 30px;
+  }
+  .content{
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+  }
+  .contentOne{
+    width: 20rem;
+    height: 20.125rem;
+  }
+  .contentOne img{
+    width: 20rem;
+  }
+  .paragraphOne{
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+  .btn{
+    height: 3rem;
+    border: 2px solid #787878;
+    font-size: 1rem;
+  }
+  .btnRed{
+    height: 3rem;
+    font-size: 1rem;
+  }
+  .textTop{
+    height: 2rem; 
+    font-size: 1rem;
+  }
+  .paragraph2{
+    padding-left: 1rem;
+    color: #787878;
+    font-size: 1rem; 
+  }
+  .paragraph{
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+  .span{
+    font-size: 1rem;
+  }
+ 
+
+}

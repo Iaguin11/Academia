@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.text{
+  color: #FFF;
+  font-family: Bebas Neue;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+  padding-top: 0.6rem;
+}
+.description{
+  color: #FFF;
+  font-family: 'Montserrat';
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 0.6rem;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 9.6875rem;
+  height: 3.375rem; 
+  background: #222;
+  color: #FFF;
+  border: none;
+  margin-top: 1.19rem;
+  color: #FFF;
+  font-family: 'Bebas Neue',sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: 0.2s;
+}
+.btn img{
+  height: 20px;
+  padding: 10px;
+}
+.btn:hover{
+  background-color:#A03333;
+  font-size: 1.1rem;
+}
+@media (max-width:425px){
+  .text {
+    font-size: 1.25rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .btn img {
+    height: 15px;
+    padding: 8px;
+  }
+}

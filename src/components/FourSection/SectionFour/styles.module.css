@@ -1,0 +1,9 @@
+.container{
+  height: 71vh;
+  background: #A03333;
+}
+@media (max-width:425px){
+  .container{
+    height: auto;
+  }
+}
